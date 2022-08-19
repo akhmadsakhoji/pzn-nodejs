@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "Belajar NodeJS NPM",
   "main": "index.js",
+  "homepage": "https://github.com/akhmadsakhoji/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akhmadsakhoji/pzn-nodejs/tree/main/node-package-manager"
+  },
   "scripts": {
+    "prestart": "echo 'Before Apllication Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Apllication Start'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +21,6 @@
     "npm"
   ],
   "author": "Akhmad Sakhoji Jamaludin",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
