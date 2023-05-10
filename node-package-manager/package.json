@@ -2,7 +2,10 @@
   "name": "node-package-manager",
   "version": "1.0.0",
   "description": "Belajar NodeJS NPM",
-  "main": "index.js",
+  "exports" : {
+    ".": "./index.js",
+    "./write.js": "./write.js"
+  },
   "homepage": "https://github.com/akhmadsakhoji/",
   "repository": {
     "type": "git",
@@ -22,5 +25,12 @@
   ],
   "author": "Akhmad Sakhoji Jamaludin",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "~4.17.19",
+    "akhmadsakhoji-belajar-nodejs-npm-library": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
 }
