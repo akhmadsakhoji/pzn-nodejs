@@ -4,7 +4,7 @@
   "description": "Belajar NodeJS NPM",
   "exports" : {
     ".": "./index.js",
-    "./write.js": "./write.js"
+    "./write": "./write.js"
   },
   "homepage": "https://github.com/akhmadsakhoji/",
   "repository": {
