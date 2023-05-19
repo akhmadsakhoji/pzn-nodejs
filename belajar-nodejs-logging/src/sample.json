@@ -1,0 +1,29 @@
+{
+  "date": "Fri May 19 2023 20:19:09 GMT+0700 (Western Indonesia Time)",
+  "error": { "code": "ERR_UNHANDLED_REJECTION" },
+  "exception": true,
+  "level": "error",
+  "message": "uncaughtException: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"Ups\".\nUnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"Ups\".",
+  "os": { "loadavg": [0, 0, 0], "uptime": 331981.156 },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Kuliah (D)\\ProgramToGitHub\\Belajar Node JS - Udemy\\pzn-nodejs\\belajar-nodejs-logging\\src\\logging-rejection.js"
+    ],
+    "cwd": "D:\\Kuliah (D)\\ProgramToGitHub\\Belajar Node JS - Udemy\\pzn-nodejs\\belajar-nodejs-logging",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 60052,
+      "external": 1041639,
+      "heapTotal": 14794752,
+      "heapUsed": 11073208,
+      "rss": 50860032
+    },
+    "pid": 25788,
+    "uid": null,
+    "version": "v18.16.0"
+  },
+  "stack": "UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason \"Ups\".",
+  "trace": []
+}
